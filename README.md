@@ -101,7 +101,7 @@ Para entrenar y evaluar el modelo, ejecuta:
 
 * También se mostrará un gráfico con la pérdida y precisión en entrenamiento y validación.
 ---
-## 🛠️ Tecnologías Utilizadas**
+## 🛠️ Tecnologías Utilizadas
 **Python:** Lenguaje de programación principal en este caso se utilizó la versión 3.11 para el desarrollo del proyecto.
 
 **NumPy:** Para cálculos numéricos y manejo de arreglos.
