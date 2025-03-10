@@ -54,7 +54,7 @@ pip install numpy matplotlib tensorflow
 ---
 ## 🗂️ Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
-    ´´´
+    ```
     BINARY_CLASSIFICATION_NLP_2230002/
     │
     ├── src/
@@ -65,6 +65,7 @@ El proyecto está organizado de la siguiente manera:
     ├── main.py              # Script principal para ejecutar el proyecto
     ├── README.md            # Este archivo
     └── requirements.txt     # Lista de dependencias del proyecto
+    ```
 --- 
 ## 🚀 ¿Cómo usar este repositorio?
 Sigue estos pasos para ejecutar el proyecto en tu lab:
