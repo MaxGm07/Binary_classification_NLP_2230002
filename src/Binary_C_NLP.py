@@ -5,8 +5,21 @@ from keras import models, layers
 from tensorflow.keras.utils import plot_model # type: ignore
 
 def binary_classification():
+    """
+    Función para entrenar un modelo de clasificación binaria en el dataset IMDB.
+    Retorna el modelo entrenado y los datos de prueba.
+    """
     # Cargar los datos
     (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=10000)
+
+    # Obtener el índice de palabras y decodificar una reseña de ejemplo
+    word_index = imdb.get_word_index()
+    reverse_word_index = {value: key for key, value in word_index.items()}
+    decoded_review = ' '.join([reverse_word_index.get(i - 3, '?') for i in train_data[0]])
+
+    print("Primera reseña decodificada:")
+    print(decoded_review)
+    print("Etiqueta de la primera reseña (1=Positiva, 0=Negativa):", train_labels[0])
 
     # Vectorizar las secuencias
     def vectorize_sequences(sequences, dimension=10000):
