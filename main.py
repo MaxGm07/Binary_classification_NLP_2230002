@@ -1,4 +1,8 @@
-﻿from src.Binary_C_NLP import train_imdb_model
+﻿from src.Binary_C_NLP import binary_classification
+def main():
+    
+    classification = binary_classification
+    print(classification)
 
 if __name__=="__main__":
-    train_imdb_model()
+    main()
