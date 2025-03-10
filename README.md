@@ -51,7 +51,7 @@ Puedes instalar en conjunto estas dependencias utilizando `pip`:
 pip install numpy matplotlib tensorflow
 ```
 **Nota:** Si en Unix (Linux) no funciona, emplea ```pip3```
----
+
 ## 🗂️ Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
     ```
@@ -66,7 +66,7 @@ El proyecto está organizado de la siguiente manera:
     ├── README.md            # Este archivo
     └── requirements.txt     # Lista de dependencias del proyecto
     ```
---- 
+
 ## 🚀 ¿Cómo usar este repositorio?
 Sigue estos pasos para ejecutar el proyecto en tu lab:
 
